@@ -15,3 +15,17 @@
   color: #818181;
   display: block;
 }
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.material-icons,
+.icon-text {
+  vertical-align: middle;
+}
+
+.material-icons {
+  padding-bottom: 3px;
+  margin-right: 30px;
+}
