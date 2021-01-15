@@ -1,4 +1,4 @@
-let mini = true;
+var mini = true;
 
 function toggleSidebar() {
   if (mini) {
@@ -11,8 +11,8 @@ function toggleSidebar() {
   } else {
     console.log("closing sidebar");
 
-    document.getElementById("mySidebar").style.width = "100px";
-    document.getElementById("main").style.marginLeft = "100px";
+    document.getElementById("mySidebar").style.width = "85px";
+    document.getElementById("main").style.marginLeft = "85px";
     
     this.mini = true;
   }

@@ -8,6 +8,8 @@
   background-color: #111;
   transition: 0.5s;
   padding-top: 60px;
+  white-space: nowrap;
+  overflow-x: hidden;
 }
 
 .sidebar a {
@@ -30,4 +32,10 @@
 .material-icons {
   padding-bottom: 3px;
   margin-right: 30px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left: 85px;
 }
